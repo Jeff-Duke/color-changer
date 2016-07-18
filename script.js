@@ -21,10 +21,10 @@ function resetBackgroundColor() {
  $('body').css("background-color", "white");
 }
 
-random.on('click', function() {
+$random.on('click', function() {
   changeBackgroundColor();
 })
 
-reset.on('click', function() {
+$reset.on('click', function() {
   resetBackgroundColor();
 })
