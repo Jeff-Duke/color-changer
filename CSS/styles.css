@@ -28,8 +28,8 @@ body {
     height: 75px;
     width: 125px;
     margin: 10px;
-
 }
+
 .button:hover {
     background-color: #B2479A;
     border-color: #CC7FB5 #E5B6D5;
