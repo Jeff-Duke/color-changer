@@ -1,5 +1,5 @@
-var random = $('.random');
-var reset = $('.reset');
+var $random = $('.random');
+var $reset = $('.reset');
 
 function getRandomColor() {
   return Math.floor((Math.random()* 255));
