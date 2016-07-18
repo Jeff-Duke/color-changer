@@ -9,11 +9,11 @@ function changeBackgroundColor() {
   var colorR = getRandomColor();
   var colorG = getRandomColor();
   var colorB = getRandomColor();
-  if (colorR != 255 && colorG != 255 && colorB != 255) {
-    $('body').css("background-color", "rgb(" + colorR + "," + colorG + "," + colorB  + ")");
+  if (colorR == 255 && colorG == 255 && colorB == 255) {
+    changeBackgroundColor();
   }
   else {
-    changeBackgroundColor();
+    $('body').css("background-color", "rgb(" + colorR + "," + colorG + "," + colorB  + ")");
   }
 }
 
