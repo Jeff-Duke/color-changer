@@ -35,7 +35,7 @@ body {
     border-color: #CC7FB5 #E5B6D5;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .button-container {
         display: flex;
         flex-direction: column;
