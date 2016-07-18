@@ -1,6 +1,7 @@
 body {
     background-color: white;
 }
+
 .button-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -32,4 +33,18 @@ body {
 .button:hover {
     background-color: #B2479A;
     border-color: #CC7FB5 #E5B6D5;
+}
+
+@media (max-width: 400px) {
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        min-width: 200px;
+    }
+    .button {
+        width: 75%;
+    }
+    .reset {
+        height: 50px;
+    }
 }
