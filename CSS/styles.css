@@ -25,17 +25,11 @@ body {
     font-size: 20px;
     font-weight: bold 700;
     text-align: center;
-<<<<<<< HEAD
     text-transform: uppercase;
     height: 120px;
     width: 260px;
     margin: 20px;
-
-=======
-    height: 75px;
-    width: 125px;
     margin: 10px;
->>>>>>> bf6737253af93d998526a3517fd495852e12492d
 }
 
 .button:hover {
