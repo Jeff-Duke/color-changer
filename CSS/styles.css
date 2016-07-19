@@ -23,13 +23,12 @@ body {
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    font-weight: bold 700;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     height: 100px;
     width: 200px;
     margin: 20px;
-    margin: 10px;
 }
 
 .button:hover {
